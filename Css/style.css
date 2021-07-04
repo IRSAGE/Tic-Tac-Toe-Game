@@ -9,10 +9,10 @@ body {
 
 .wrapper {
   max-width: 1440px;
-  height: 800px;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 0 auto;
 }
 h1{
