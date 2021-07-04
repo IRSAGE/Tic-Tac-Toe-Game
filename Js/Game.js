@@ -23,11 +23,14 @@ export default class Game {
       return;
     }
     this.board[i] = this.turn;
-    let winningCombination = this.findWinningCombination();
+      let winningCombination = this.findWinningCombination();
+      
     if (!winningCombination) {
       this.nextTurn();
+    } else {
+       console.log("Winning Combination: ", winningCombination); 
     }
-    console.log("Winning Combination: ", winningCombination);
+    
   }
 
   findWinningCombination() {

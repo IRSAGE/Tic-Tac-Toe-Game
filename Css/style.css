@@ -15,9 +15,9 @@ body {
   justify-content: space-evenly;
   margin: 0 auto;
 }
-h1{
-    font-size: 70px;
-    font-weight: bold;
+h1 {
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .restart {
@@ -48,10 +48,26 @@ h1{
   color: #9a9a9a;
   font-size: 24px;
 }
-.header .player-x, .header .player-o{
-    flex: 1;
-    border-bottom: 5px solid #eee;
-    padding-bottom: 8px;
+.header .player-x,
+.header .player-o {
+  flex: 1;
+  border-bottom: 5px solid #eee;
+  padding-bottom: 8px;
+}
+
+.player-x.active {
+  color: #42bed7;
+  border-color: #42bed7;
+}
+.player-o.active {
+  color: #1d61c7;
+  border-color: #1d61c7;
+}
+.tile-x {
+  color: #42bed7;
+}
+.tile-o {
+  color: #1d61c7;
 }
 
 .board {
@@ -78,6 +94,6 @@ h1{
   border-bottom: 3px solid rgba(137, 163, 189, 0.7);
 }
 
-.board-tile:hover{
-    background-color: #eee;
+.board-tile:hover {
+  background-color: #eee;
 }
