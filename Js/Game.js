@@ -12,4 +12,8 @@ export default class Game {
       this.turn = "X";
     }
   }
+
+  makeMove(i) {
+    this.board[i] = this.turn;
+  }
 }
