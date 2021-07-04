@@ -70,6 +70,9 @@ h1 {
   color: #1d61c7;
 }
 
+.winner span {
+  color: #23ce6b;
+}
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
